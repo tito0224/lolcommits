@@ -40,7 +40,7 @@ module Lolcommits
 
         body = {
             :bot_id => configuration["bot_token"],
-            :text => self.runner.message,
+            :text => "Commit to #{repo}",
             :attachments => [{ :type => "image", :url => image_url }]
           }.to_json
         debug body
