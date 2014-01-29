@@ -23,7 +23,7 @@ module Lolcommits
         c.gravity 'SouthWest'
         c.fill 'white'
         c.stroke 'black'
-        c.strokewidth '2'
+        c.strokewidth '1'
         c.pointsize(self.runner.animate? ? '24' : '48')
         c.interline_spacing '-9'
         c.font font_location
@@ -34,7 +34,7 @@ module Lolcommits
         c.gravity 'NorthEast'
         c.fill 'white'
         c.stroke 'black'
-        c.strokewidth '2'
+        c.strokewidth '1'
         c.pointsize(self.runner.animate? ? '21' : '32')
         c.font font_location
         c.annotate '0', self.runner.sha
