@@ -40,7 +40,8 @@ module Lolcommits
     end
 
     def is_configured?
-      !configuration["enabled"].nil? && configuration["groupme_bot_token"] && configuration["groupme_access_token"]
+      !configuration["enabled"].nil? && configuration["groupme_bot_token"] 
+        && configuration["groupme_access_token"]
     end
 
     def self.name
